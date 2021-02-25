@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Get Rate
-        uses: SmileSB101-jober/home-money-jober@master
+        uses: SmileSB101-jober/home-money-jober@main
