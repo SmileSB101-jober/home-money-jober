@@ -2,9 +2,9 @@
   "name": "home-money-jober",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && ncc build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
     "@types/axios": "^0.14.0",
     "@types/cheerio": "^0.22.24",
     "@types/node": "^14.14.31",
+    "@vercel/ncc": "^0.27.0",
     "typescript": "^4.2.2"
   },
   "dependencies": {
